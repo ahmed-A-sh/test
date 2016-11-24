@@ -1261,7 +1261,7 @@ DocType: Purchase Invoice Item,Accounting,المحاسبة
 DocType: Employee,EMP/,EMP /
 DocType: Asset,Depreciation Schedules,جداول الاستهلاك
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py +85,Application period cannot be outside leave allocation period,فترة الطلب لا يمكن أن يكون خارج فترةالاجزات المخصصة
-DocType: Activity Cost,Projects,مشاريع
+DocType: Activity Cost,Projects,ادارة المشاريع
 DocType: Payment Request,Transaction Currency,عملية العملات
 apps/erpnext/erpnext/controllers/buying_controller.py +24,From {0} | {1} {2},من {0} | {1} {2}
 DocType: Production Order Operation,Operation Description,وصف العملية
@@ -3743,7 +3743,7 @@ apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js +36,Chart of Co
 ,Requested Items To Be Ordered,الأصناف المطلوبة للتوريد
 DocType: Price List,Price List Name,قائمة الأسعار اسم
 apps/erpnext/erpnext/accounts/report/general_ledger/general_ledger.py +181,Totals,المجاميع
-DocType: BOM,Manufacturing,تصنيع
+DocType: BOM,Manufacturing,ادارة التصنيع
 ,Ordered Items To Be Delivered,الأصناف المطلوبة للتوصيل
 DocType: Account,Income,دخل
 DocType: Industry Type,Industry Type,نوع صناعة
